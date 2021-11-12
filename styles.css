@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #f3f3f3;
+}
+.content {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr;
+  border-bottom: 3px solid #f3f3f3;
+  padding: 1rem;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav li {
+  list-style: none;
+  padding: 0.15rem;
+}
+.logo-container {
+  display: flex;
+}
+.horizontal-lines {
+  display: flex;
+  flex-direction: row;
+}
+.vertical-lines {
+  display: flex;
+  flex-direction: column;
+}
+
+.line-h {
+  width: 3px;
+  background: black;
+  height: 18px;
+  margin: 1px;
+}
+
+.line-v {
+  width: 19px;
+  background: black;
+  height: 3px;
+  margin: 1px;
+}
+
+.login {
+  display: flex;
+}
+
+.secondary-menu {
+  list-style: none;
+  display: flex;
+}
+
+.secondary-menu li {
+  margin: 0.4rem;
+}
+
+.main-img-container {
+  background-image: url(./img/landing.jpg);
+  background-repeat: no-repeat;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  min-height: calc(100vh - 120px);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main-img-container__text {
+  font-size: 9rem;
+  color: rgb(199, 53, 53);
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
